@@ -1,0 +1,11 @@
+#---- Rationale part -----#
+#Board
+# Display board
+# play game
+#handle turn
+# check win 
+  #check rows
+  #check columns 
+  #check diagonals
+# chek tie
+# flip player 
