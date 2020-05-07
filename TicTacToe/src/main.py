@@ -1,3 +1,4 @@
+#----- By João Victor and Qazi------
 #----- Global variables ------
 
 # Game board
