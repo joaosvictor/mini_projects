@@ -15,7 +15,7 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        left =0;
+        left =0
         right = len(s) -1
         while left < right:
             tmp = s[left]
