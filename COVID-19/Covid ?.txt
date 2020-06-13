@@ -4,3 +4,4 @@ Streaming
 The main form of contagion of a new coronavirus is contact with an infected person, who transmits or viruses through coughing and sneezing. It is also displayed when a person touches a contaminated surface or object and then the eyes, nose or mouth.
 
 The voice assistant is about to help you about questions of covid-19
+#stayhome
