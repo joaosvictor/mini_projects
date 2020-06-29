@@ -1,7 +1,7 @@
 # Tuturial by João Victor; joaosantoos@aol.com
 # Python Object-Oriented Programming
 
-#setting up the class and making de oop
+#setting up the class and making de oop;
 class Employee:
 	def __init__(self, first, last, pay):
 		self.first = first
