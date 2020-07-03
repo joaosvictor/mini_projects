@@ -16,8 +16,8 @@ counter = (0)
 #loop while to do the process
 while counter < amount:
     counter = counter + 1
-    for c in range(counter, amount +1 ):
-        if c == 0:
+    for i in range(counter, amount +1 ):
+        if i == 0:
             suM = term1
         else:
             suM = suM + cmdifference
@@ -31,6 +31,6 @@ while counter < amount:
 
 #finishing the code 
 print('Finishing...')
-sleep(2)
+sleep(1)
 print('==================================')
 print('Program ended! To the next! ')
