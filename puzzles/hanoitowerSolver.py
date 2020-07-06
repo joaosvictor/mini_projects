@@ -1,4 +1,4 @@
-#By joão victor; 
+#By joao victor
 #Hanoi Tower Solver 
 
 #setting up the function move: it'll move the discs 
