@@ -12,26 +12,26 @@ graph["start"]["a"] = 6
 graph["start"]["b"] = 2
 
 graph["a"] = {}
-graph["a"]["fin"] = 1
+graph["a"]["end"] = 1
 
 graph["b"] = {}
 graph["b"]["a"] = 3
-graph["b"]["fin"] = 5
+graph["b"]["end"] = 5
 
-graph["fin"] = {}
+graph["end"] = {}
 
 # the costs table
 infinity = float("inf")
 costs = {}
 costs["a"] = 6
 costs["b"] = 2
-costs["fin"] = infinity
+costs["end"] = infinity
 
 # the parents table
 parents = {}
 parents["a"] = "start"
 parents["b"] = "start"
-parents["fin"] = None
+parents["end"] = None
 
 processed = []
 
