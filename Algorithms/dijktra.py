@@ -1,10 +1,10 @@
 '''
 #the graph
-      6A
+     6 A
      / | \1
-begin 3|  end
+start 3|  end
      \ | /5
-	  2B 
+     2 B 
 '''
 graph = {}
 graph["start"] = {}
