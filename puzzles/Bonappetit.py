@@ -29,3 +29,4 @@ if __name__ == '__main__':
     b = int(input().strip())
     
     bonAppetit(bill,k,b)
+#
