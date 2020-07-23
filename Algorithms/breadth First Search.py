@@ -16,7 +16,7 @@ def search(country):
 	searched=[]
 	#this loop below will check if the person is in the queue 2 times
 	while search_queue:
-		neighbor = search_queue.popleft()
+		neighbor = search_queue.popleft()#take the first left Nº
 		#only search this neighbor if you haven't already searched them
 		if neighbor not in searched:
 			if country_neighbor_brazil(neighbor):
