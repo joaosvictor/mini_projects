@@ -7,6 +7,7 @@ import speech_recognition as sr
 import re
 import threading
 import time
+#from time import sleep 
 
 API_KEY = "{PUT-YOURS-HERE}"
 PROJECT_TOKEN = "{PUT-YOURS-HERE}"
