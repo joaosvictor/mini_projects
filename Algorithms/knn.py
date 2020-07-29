@@ -1,4 +1,4 @@
-# Example of calculating Euclidean distance
+# Example of getting neighbors for an instance
 from math import sqrt
  
 # calculate the Euclidean distance between two vectors
@@ -7,6 +7,18 @@ def euclidean_distance(row1, row2):
 	for i in range(len(row1)-1):
 		distance += (row1[i] - row2[i])**2
 	return sqrt(distance)
+ 
+# Locate the most similar neighbors
+def get_neighbors(train, test_row, num_neighbors):
+	distances = list()
+	for train_row in train:
+		dist = euclidean_distance(test_row, train_row)
+		distances.append((train_row,dist))
+	distances.sort(key=lambda tup: tup[1])
+	neighbors = list()
+	for i in range(num_neighbors):
+		neighbors.append(distances[i][0])
+	return neighbors
  
 # Test distance function
 dataset = [[2.7810836,2.550537003,0],
@@ -19,7 +31,6 @@ dataset = [[2.7810836,2.550537003,0],
 	[6.922596716,1.77106367,1],
 	[8.675418651,-0.242068655,1],
 	[7.673756466,3.508563011,1]]
-row0 = dataset[0]
-for row in dataset:
-	distance = euclidean_distance(row0, row)
-	print(distance)
+neighbors = get_neighbors(dataset, dataset[0], 3)
+for neighbor in neighbors:
+	print(neighbor)
