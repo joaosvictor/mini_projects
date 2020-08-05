@@ -1,4 +1,4 @@
-// Yes a exception here, I'm puting here a cc algorithm, why ?? I don't know.
+// Yes a exception here
 
 #include <iostream>
 using namespace std;
