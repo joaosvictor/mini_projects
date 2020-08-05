@@ -1,4 +1,4 @@
-// BFS algorithm in C++
+// Yes i put a cpp algorith source in python repository. suckkkkkkk
 
 #include <iostream>
 #include <list>
