@@ -1,8 +1,4 @@
-#----- By João Victor and Qazi------
-#----- Global variables ------
-
 # Game board
-
 board = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
 
 # if game is still going 
@@ -22,7 +18,6 @@ def display_board():
 
 # Play  a game pf tic tac toe
 def play_game():
-  
   
   #Display_inicial board
   display_board()
