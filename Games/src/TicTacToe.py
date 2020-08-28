@@ -4,10 +4,10 @@ board = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
 # if game is still going 
 game_still_going = True
 
-#Who won ? or tie 
+# Who won ? or tie 
 winner = None
 
-#Whos turn is it 
+# Whos turn is it 
 current_player = "X"
 
 # Display board
