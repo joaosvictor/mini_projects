@@ -1,1 +1,2 @@
 Change to a repositorie focused only on corona with data and code
+https://github.com/joaovictorsantos/corona
