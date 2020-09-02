@@ -1,5 +1,4 @@
-#by João Victor : joaosantoos@aol.com
-
+#by João Victor
 from time import sleep
 #import the library
 
