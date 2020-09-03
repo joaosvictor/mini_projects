@@ -12,7 +12,7 @@ for i in range(10):
 # >>>  0,4,8
 
 '''
-# should work in this type I guess.
+# should work in this type, I guess
 import sys
 
 for i in range(10):
