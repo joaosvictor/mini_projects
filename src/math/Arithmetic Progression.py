@@ -1,6 +1,5 @@
 #by João Victor
 from time import sleep
-#import the library
 
 print('---- Super Arithmetic Progression ----')
 
