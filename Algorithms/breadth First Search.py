@@ -1,5 +1,5 @@
 from collections import deque
-#enque = add to right/deque = remove from left
+#enque = add to right/deque = remove from left.
 
 def country_neighbor_brazil(country):
 	return country[-1]=='a'#a dumb way to find the neighbor with the last letter of the word with 'a'
