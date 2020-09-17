@@ -12,7 +12,7 @@ graph["USA"]=["Canada"]
 
 def search(country):
 	search_queue = deque()
-	search_queue += graph[country] #same like search_queue = search_queue + 1
+	search_queue += graph[country] #same like search_queue = search_queue + 1.
 	searched=[]
 	#this loop below will check if the person is in the queue 2 times
 	while search_queue:
