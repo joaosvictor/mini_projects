@@ -1,11 +1,14 @@
 '''
-#the graph
+
+# the graph: 
      6 A
      / | \1
 start 3|  end
      \ | /5
      2 B 
 '''
+
+
 graph = {}
 graph["start"] = {}
 graph["start"]["a"] = 6
