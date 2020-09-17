@@ -1,7 +1,8 @@
+# I know... this is not a game but It's python3 interfaces, dawg!
 import tkinter as tk
- 
+
 class Application(tk.Frame):
-    def __init__(self, master=None):
+    def __init__(self, master=None):    
         super().__init__(master)
         self.master = master
         self.pack()
@@ -9,8 +10,8 @@ class Application(tk.Frame):
  
     # here is the main func to create the window with the messages 
     def create_widgets(self):
-        self.hi_there = tk.Button(self)
-        self.hi_there["text"] = "Just testing the window\n(click me)"
+        self.hi_there = tk.Button(self) # create the button
+        self.hi_there["text"] = "Just testing the interface\n(click me)"
         self.hi_there["command"] = self.say_hi
         self.hi_there.pack(side="top")
 
@@ -19,6 +20,7 @@ class Application(tk.Frame):
         self.quit.pack(side="bottom")
  
     def say_hi(self):
+        # this message will appear in the bash(terminal) when clicked 
         print("I'm here in the bash my dude!")
  
 root = tk.Tk()
