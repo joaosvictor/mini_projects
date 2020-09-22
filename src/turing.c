@@ -3,7 +3,8 @@
 // you see the BB five here: https://github.com/joaovictorsantos/ml-notebooks/tree/master/zBusy_Beaver
 // see: https://en.wikipedia.org/wiki/Turing_machine
 // see: https://en.wikipedia.org/wiki/Busy_beaver
- 
+
+
 /*
  Turing Machine for 1-state BB:
  a0 -> h1r
@@ -167,7 +168,7 @@ currentgame = (char **) tm4; ncards = 4;
 
 
 
-// now run the appropriate BB Turing Machine
+// Driver code; tape find.
 
 retcode = runtm ((char *(*)[2]) currentgame, ncards);
 
