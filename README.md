@@ -5,7 +5,7 @@
 #### Some algorithms are in the code mode and not in library one. Some day I'll modify it. 
 
 -----
-#### There are some libraries in the codes. follow here
+#### Check the libraries here.
 
 ```
 pip install compressed-deque
