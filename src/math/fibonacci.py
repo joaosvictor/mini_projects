@@ -1,4 +1,3 @@
-
 def FibRecusion(n):
 	if n<=1:
 	        return n
@@ -6,9 +5,9 @@ def FibRecusion(n):
 		return(FibRecusion(n-1)+FibRecusion(n-2))
 	
 	
-nterms = int(input("enter the terms: "))#take i
+nterms = int(input("enter the terms: ")) # take i
 
-if nterms <= 0:#check if the number is valid 
+if nterms <= 0: # check if the number is valid 
 	print('please enter a positive integer')
 else:
 	print('Fibonacci sequence: ')
