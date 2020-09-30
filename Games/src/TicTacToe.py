@@ -1,4 +1,4 @@
-# Game board
+# Game board ->
 board = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
 
 # if game is still going 
@@ -19,7 +19,7 @@ def display_board():
 # Play  a game pf tic tac toe
 def play_game():
   
-  #Display_inicial board
+  # Display_inicial board
   display_board()
 
   # while game is till going 
@@ -98,7 +98,8 @@ def check_rows():
   row_1 = board[0] == board[1] == board[2] != "-"
   row_2 = board[3] == board[4] == board[5] != "-"
   row_3 = board[6] == board[7] == board[8] != "-"
-  #if any row does have a match, flag that there is a win
+  
+  # if any row does have a match, flag that there is a win
   if row_1 or row_2 or row_3:
     game_still_going = False
   # return the winner (X or O);
