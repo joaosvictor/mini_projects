@@ -69,7 +69,7 @@ while opcao != 9:
     print(' ')
     print('-' * 90)
     break
-    #finalinando a primeira parte do programa;
+    #finalinando a primeira parte do programa
 sleep(2.4)
 #criando a segunda parte
 print(' ')
