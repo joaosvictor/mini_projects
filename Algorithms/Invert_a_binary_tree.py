@@ -1,4 +1,3 @@
-#
 '''
 INPUT:
      4
@@ -14,7 +13,7 @@ EXPECTED OUTPUT:
  / \   / \
 9   6 3   1
 '''
-#Solution
+# Solution
 class Solution(object):
 	def invertTree(self, root):
 		'''
