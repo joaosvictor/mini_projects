@@ -1,11 +1,11 @@
-# this is a hacker rank puzzle.
+# this is a hacker rank puzzle
 import math
 import os
 import random
 import re
 import sys
 
-# complete the bonAppetit func below. 
+# complete the bonAppetit func below 
 def bonAppetit(bill,k,b):
     count = 0
     for i in range(len(bill)):
