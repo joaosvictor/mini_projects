@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 # Pong game by @joao victor;
 import turtle
 import os
