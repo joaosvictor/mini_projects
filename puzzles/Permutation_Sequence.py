@@ -18,7 +18,6 @@
 
 import math
 
-##
 class Solution(object):
     def getPermutation(self, n, k):
         seq, k, fact = "", k - 1, math.factorial(n - 1)
