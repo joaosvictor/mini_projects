@@ -1,6 +1,6 @@
 from random import seed
 from random import randint
 
-for _ in range(200): # here you can put the value of generates that u want
+for _ in range(200): 
       value = randint(1, 1500)
       print(value)
