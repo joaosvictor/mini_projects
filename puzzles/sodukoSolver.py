@@ -47,7 +47,7 @@ def explicit_solver(container):
     if container[i][j] == 0:
         poss_vals = get_poss_vals(i,j)
         
-        #check rows.
+        # check rows
         row_poss = []
         for y in range(9):
             if y ==j:
@@ -59,7 +59,7 @@ def explicit_solver(container):
             container[i][j] = list(set(poss_vals)-set(row_poss))[0]
             print_container(container)
             
-        #check column
+        # check column
         col_poss = []
         for x in range(9):
             if x == i:
@@ -71,7 +71,7 @@ def explicit_solver(container):
             container[i][j] = list(set(poss_vals)-set(col_poss))[0]
             print_container(container)
         
-         #check square
+        # check square
         first = [0, 1, 2]
         second = [3, 4, 5]
         third = [6, 7, 8]
