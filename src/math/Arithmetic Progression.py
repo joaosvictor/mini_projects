@@ -1,4 +1,4 @@
-#by João Victor
+# by João Victor
 from time import sleep
 
 print('---- Super Arithmetic Progression ----')
@@ -11,7 +11,7 @@ plus = int(10)
 suM = int(0)
 counter = (0)
 
-#loop while to do the process
+# loop while to do the process
 while counter < amount:
     counter = counter + 1
     for i in range(counter, amount +1 ):
@@ -27,7 +27,7 @@ while counter < amount:
     if plus == 0:
         amount = counter + plus
 
-#finishing the code 
+ 
 print('Finishing...')
 sleep(1)
 print('==================================')
