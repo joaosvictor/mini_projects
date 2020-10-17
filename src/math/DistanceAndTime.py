@@ -1,4 +1,3 @@
-#By João Victor; 
 # distance and time 
   
 # Function to calculate speed 
