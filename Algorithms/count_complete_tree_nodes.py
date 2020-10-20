@@ -21,7 +21,7 @@ class Solution:
             node = node.left
             level += 1
         
-        # Binary search.
+        # Binary search
         left, right = 2 ** level, 2 ** (level + 1)
         while left < right:
             mid = left + (right - left) / 2
