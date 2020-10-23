@@ -2,7 +2,7 @@ num = 7
 
 factorial = 1
 
-# check if the number is negative, positive or zero.
+# check if the number is negative, positive or zero
 if num < 0:
    print("Sorry, factorial does not exist for negative numbers")
 elif num == 0:
