@@ -1,9 +1,8 @@
-# by João Victor
 from time import sleep
 
 print('---- Super Arithmetic Progression ----')
 
-#Setting up the variables
+# Setting up the variables
 term1 = int(input('What the first term ? '))
 cmdifference = int(input('Common difference ? '))
 amount = int(10)
@@ -21,7 +20,7 @@ while counter < amount:
             suM = suM + cmdifference
         print(suM - cmdifference, end=' => ')
 
-    #putting the continnue of AP
+    # putting the continnue of AP
     plus = int(input('More terms ? '))
     amount = counter + plus
     if plus == 0:
