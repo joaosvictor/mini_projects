@@ -1,7 +1,6 @@
 # Game board ->
 board = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
 
-# if game is still going 
 game_still_going = True
 
 # Who won ? or tie 
