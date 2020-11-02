@@ -1,4 +1,3 @@
-# Tuturial by João Victor; joaosantoos@aol.com
 # Python Object-Oriented Programming
 
 #setting up the class and making de oop;
