@@ -1,6 +1,3 @@
-#Desenvolvido por João Victor;
-#Linkedin: https://www.linkedin.com/in/jo%C3%A3o-victor-santos-do-nascimento-0821861a1/
-
 from time import sleep
 from decimal import *
 import datetime
