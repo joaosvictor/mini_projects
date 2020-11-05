@@ -1,5 +1,4 @@
-
-class Parent:      # define parent class
+class Parent:    
    parentAttr = 100
    def __init__(self):
       print "Calling parent constructor"
