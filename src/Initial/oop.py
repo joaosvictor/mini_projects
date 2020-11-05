@@ -1,6 +1,6 @@
 # Python Object-Oriented Programming
 
-#setting up the class and making de oop;
+# setting up the class and making de oop
 class Employee:
 	def __init__(self, first, last, pay):
 		self.first = first
@@ -10,9 +10,9 @@ class Employee:
 
 	def fullname(self):
 		return '{} {}'.format(self.first, self.last)#here goes the full name method
-		
 
-#setting up  the employees;
+	
+# setting up  the employees
 emp_1 = Employee('Jhon', 'Leon', 8552)
 emp_2 = Employee('Michael', 'Billy', 8789)
 
