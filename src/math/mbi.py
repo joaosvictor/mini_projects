@@ -1,4 +1,3 @@
-# driver mbi
 # see: https://en.wikipedia.org/wiki/Body_mass_index
 name  = str(input('Your name: '))
 height_m = float(input('Put your height: '))
