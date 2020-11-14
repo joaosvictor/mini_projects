@@ -9,6 +9,7 @@
 
 ```
 pip install compressed-deque
+pip install PySDL2
 pip install turtle
 sudo apt-get install python3-tk
 sudo apt-get install python-tk
