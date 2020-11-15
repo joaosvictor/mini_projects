@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# check voter 
 # hash table will call the dictionary
 voted = {} # here are the hash table = "{}"
 def check_voter(name):
