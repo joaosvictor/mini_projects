@@ -34,29 +34,27 @@ class Convert(object):
         transformation  = ''.join(random.choice(chars) for i in range(len(INPUT)*10))
         print(transformation)
 
-        l = Label(text = "Please, put your text to cryptography below.")
-        inputtxt = Text(root, height = 10,
-                        width = 25,
-                        bg = "light blue")
+    l = Label(text = "Please, put your text to cryptography below.")
+    inputtxt = Text(root, height = 10,
+                    width = 25,
+                    bg = "light blue")
 
-        Output = Text(root, height = 5,
-                      width = 25,
-                      bg = "light cyan")
+    Output = Text(root, height = 5,
+                  width = 25,
+                  bg = "light cyan")
          
-        Display = Button(root, height = 2,
-                         width = 20,
-                         text = "Show",
-                         command = lambda:take_input())
-
+    Display = Button(root, height = 2,
+                     width = 20,
+                     text = "Show",
+                     command = lambda:take_input())
 
     l.pack()
     inputtxt.pack()    
     Display.pack()    
     Output.pack()
-
     mainloop()
+   
     take_input()
-
 
 if __name__ == '__main__':
     Convert()
