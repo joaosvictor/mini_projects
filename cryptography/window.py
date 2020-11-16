@@ -30,10 +30,11 @@ class Convert(object):
            return 0;
         }
         """
-        # part to transform it 
+        # transform txt 
         transformation  = ''.join(random.choice(chars) for i in range(len(INPUT)*10))
         print(transformation)
 
+    # TODO: take the initial input and print it in an new label with the transformation
     l = Label(text = "Please, put your text to cryptography below.")
     inputtxt = Text(root, height = 10,
                     width = 25,
