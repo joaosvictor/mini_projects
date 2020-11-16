@@ -4,4 +4,9 @@ from tkinter import *
 import os
 import numpy as np 
 
-print('oi')
+class Convert(object):
+
+
+
+if __name__ == '__main__':
+    Convert()
