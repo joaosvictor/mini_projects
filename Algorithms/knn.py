@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 # Example of getting neighbors for an instance
 from math import sqrt
  
