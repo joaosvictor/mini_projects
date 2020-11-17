@@ -8,10 +8,9 @@ import string
 import sys
 
 class Convert(object):
-    frame = np.array([500,500])
+
     root = Tk()
-    root.geometry(frame)
-   #root.geometry("500x500")
+    root.geometry("500x500")
     root.title("Cryptography")
 
     def take_input(chars = string.ascii_uppercase + string.digits + string.punctuation):
