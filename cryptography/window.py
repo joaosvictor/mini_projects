@@ -30,7 +30,7 @@ class Convert(object):
            return 0;
         }
         """
-        
+        # txt -> cryptography
         transformation  = ''.join(random.choice(chars) for i in range(len(INPUT)*10))
         print(transformation)
 
