@@ -1,6 +1,7 @@
 #!/usr/bin/python3 
 
 from tkinter import *
+import tkinter as tk
 import os
 import numpy as np
 import random
@@ -9,8 +10,8 @@ import sys
 
 class Convert(object):
 
-    root = Tk()
-    root.geometry("500x500")
+    root = tk.Tk()
+    root.geometry("700x550")
     root.title("Cryptography")
 
     def take_input(chars = string.ascii_uppercase + string.digits + string.punctuation):
@@ -31,29 +32,41 @@ class Convert(object):
            return 0;
         }
         """
+
         # txt -> cryptography
         transformation  = ''.join(random.choice(chars) for i in range(len(INPUT)*10))
         print(transformation)
 
     # TODO: take the initial input and print it in an new label with the transformation
+
+    # txt window 1
     l = Label(text = "Please, put your text to cryptography below.")
     inputtxt = Text(root, height = 10,
-                    width = 25,
+                    width = 30,
                     bg = "light blue")
+    print(' ')
 
-    Output = Text(root, height = 5,
-                  width = 25,
-                  bg = "light cyan")
-         
-    Display = Button(root, height = 2,
-                     width = 20,
+    # button
+    display = Button(root, height = 2,
+                     width = 15,
                      text = "Show",
                      command = lambda:take_input())
 
+    # txt window 2
+    Label_middle = tk.Label(root,
+                            text = "This is your cryptography text.")
+    Label_middle.place(relx = 0.5,
+                            rely = 0.5,
+                            anchor = 'center')
+    output = Text(root, height = 10,
+                  width = 30,
+                  bg = "light yellow")
+
+    #l1.pack()
     l.pack()
     inputtxt.pack()    
-    Display.pack()    
-    Output.pack()
+    display.pack()    
+    output.pack()
     mainloop()
    
     take_input()
