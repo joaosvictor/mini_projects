@@ -8,10 +8,11 @@
 #### Check the libraries here.
 
 ```
-pip install compressed-deque
 pip install numpy
 pip install PySDL2
 pip install turtle
+pip install compressed-deque
+pip install PySimpleGUI
 sudo apt-get install python3-tk
 sudo apt-get install python-tk
 ```
