@@ -11,8 +11,8 @@
 pip install numpy
 pip install PySDL2
 pip install turtle
+pip install PySimpleGUI 
 pip install compressed-deque
-pip install PySimpleGUI
-sudo apt-get install python3-tk
 sudo apt-get install python-tk
+sudo apt-get install python3-tk
 ```
