@@ -1,9 +1,8 @@
-// Yes a exception here
-
 #include <iostream>
 using namespace std;
 
 int main() {
+
 	// the implementation:
     for (int i = 1; i <= n; i++) distance[i] = INF;
     distance[x] = 0;
