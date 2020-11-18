@@ -5,7 +5,7 @@
 #### Some algorithms are in the code mode and not in library one. Some day I'll modify it. 
 
 -----
-#### Check the libraries here.
+#### Check the libraries here
 
 ```
 pip install numpy
