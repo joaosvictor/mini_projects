@@ -4,7 +4,6 @@ import os
 import sys
 import random
 import string
-import tkinter as tk
 import PySimpleGUI as sg 
 
 class Converttxt(object):
