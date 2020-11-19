@@ -8,7 +8,7 @@ import PySimpleGUI as sg
 class Converttxt(object):
     def process():
 
-        # window color scheme
+        # window color theme
         sg.theme('DarkAmber')
 
         # inside your window 
