@@ -4,6 +4,7 @@ import os
 import sys
 import random
 import string
+import tkinter as tk
 import PySimpleGUI as sg 
 
 class Converttxt(object):
@@ -12,11 +13,11 @@ class Converttxt(object):
         # window color theme
         sg.theme('Dark Teal 5')
 
-
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+.')],
                    [sg.Text('Please, enter your text: '), sg.InputText(key = '-IN-')],
-                   [sg.Submit(), sg.Cancel()]]
+                   [sg.Submit(), sg.Cancel()]
+                   ]
  
         '''
         convert_num_str = f'{layout}'
@@ -29,10 +30,13 @@ class Converttxt(object):
         event, values = window.read()
         window.close()
 
+        # get input key from layout
         text_input = values['-IN-']
+        
         # here
         transformation = ''.join(random.choice(chars) for i in range(len(text_input)*10))
         sg.popup('Your cryptography text: ', transformation)
+
     process()
 
 if __name__ == '__main__':
