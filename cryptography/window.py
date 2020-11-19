@@ -10,7 +10,7 @@ class Converttxt(object):
     def process(chars = string.ascii_uppercase + string.digits + string.punctuation):
 
         # window color theme
-        sg.theme('Dark Teal 5')
+        sg.theme('Dark Teal 1')
 
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+.')],
@@ -24,7 +24,7 @@ class Converttxt(object):
         '''
 
         # create window
-        window = sg.Window('Cr+', layout)
+        window = sg.Window('Cr+', layout, size=(450,250) )
 
         event, values = window.read()
         window.close()
