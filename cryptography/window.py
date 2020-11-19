@@ -33,7 +33,12 @@ class Converttxt(object):
         text_input = values['-INPUT-']
                                 
         # here the magic happens
-        transformation = ''.join(random.choice(chars) for i in range(len(text_input)*10))
+        transformation = len(text_input)
+        if transformation <= 35:
+            transformation = ''.join(random.choice(chars) for i in range(len(text_input)*10))
+        else: 
+            transformation = ''.join(random.choice(chars) for i in range(len(text_input)))
+            
         sg.popup('Your cryptography text: ', transformation)
 
     process()
