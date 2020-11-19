@@ -30,7 +30,9 @@ class Converttxt(object):
         window.close()
 
         text_input = values['-IN-']
-        sg.popup('Your cryptography text: ', text_input)
+        # here
+        transformation = ''.join(random.choice(chars) for i in range(len(text_input)*10))
+        sg.popup('Your cryptography text: ', transformation)
     process()
 
 if __name__ == '__main__':
