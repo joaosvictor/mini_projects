@@ -26,7 +26,7 @@ class Converttxt(object):
             print('You entered ', values[0])
 
         window.close()
-        process()
+    process()
 
 if __name__ == '__main__':
     Converttxt()
