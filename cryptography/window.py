@@ -1,13 +1,14 @@
 #!/usr/bin/env python3  
 
-import PySimpleGUI as sg
-import os
+import os 
 import sys
 import random
+import PySimpleGUI as sg 
 
 class Converttxt(object):
     def process():
 
+        # window color scheme
         sg.theme('DarkAmber')
 
         # inside your window 
