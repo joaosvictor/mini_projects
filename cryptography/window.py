@@ -9,7 +9,7 @@ class Converttxt(object):
     def process():
 
         # window color theme
-        sg.theme('DarkAmber')
+        sg.theme('Black')
 
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+.')],
