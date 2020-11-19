@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# this call the main class
+# main class
 from window import Converttxt
 import PySimpleGUI as sg
 import random
