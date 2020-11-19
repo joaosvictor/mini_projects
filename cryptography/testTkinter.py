@@ -1,3 +1,4 @@
+'''
 #!/usr/bin/python3 
 
 from tkinter import *
@@ -73,3 +74,4 @@ class Convert(object):
 
 if __name__ == '__main__':
     Convert()
+'''    
