@@ -10,7 +10,7 @@ class Converttxt(object):
     def process(chars = string.ascii_uppercase + string.digits + string.punctuation):
 
         # window color theme
-        sg.theme('Black')
+        sg.theme('Dark Teal 5')
 
 
         # inside your window 
@@ -26,14 +26,11 @@ class Converttxt(object):
         # create window
         window = sg.Window('Cr+', layout)
 
-        # event Loop to process "events" and get the "values" of the inputs
-        while True:
-            event, values = window.read()
-            if event == sg.WIN_CLOSED or event == 'Cancel':
-                break
-            print('Your cryptography text:  ', values[0])
-
+        event, values = window.read()
         window.close()
+
+        text_input = values['-IN-']
+        sg.popup('Your cryptography text: ', text_input)
     process()
 
 if __name__ == '__main__':
