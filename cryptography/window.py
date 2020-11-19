@@ -14,7 +14,7 @@ class Converttxt(object):
 
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+.')],
-                   [sg.Text('Please, enter your text: '), sg.InputText(key = '-IN-')],
+                   [sg.Text('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
                    [sg.Submit(), sg.Cancel()]
                    ]
  
@@ -28,11 +28,11 @@ class Converttxt(object):
 
         event, values = window.read()
         window.close()
-
+                                         
         # get input key from layout
-        text_input = values['-IN-']
-        
-        # here
+        text_input = values['-INPUT-']
+                                
+        # here the magic happens
         transformation = ''.join(random.choice(chars) for i in range(len(text_input)*10))
         sg.popup('Your cryptography text: ', transformation)
 
