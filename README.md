@@ -1,8 +1,8 @@
 ### Just some codes that I developed to practice.
 
-### Here I put some python and cpp(+python) codes.
+### Here I put some python and c++ codes. Plus python!
 
-#### Some algorithms are in the code mode and not in library one. Some day I'll modify it. 
+#### Some algorithms are in code! not in library.  
 
 -----
 #### Check the libraries here
