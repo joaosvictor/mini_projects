@@ -13,7 +13,7 @@ class Converttxt(object):
         sg.theme('Dark Teal 1')
 
         # inside your window 
-        layout = [ [sg.Text('Cryptography your text now! Cr+.')],
+        layout = [ [sg.Text('Cryptography your text now! Cr+ it.')],
                    [sg.Text('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
                    [sg.Submit(), sg.Cancel()]
                    ]
