@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 subtract_set = {1,2,3,4,5,6,7,8,9}
 
 def check_horizontal(i,j):
@@ -90,4 +91,5 @@ def explicit_solver(container):
         if len(set(poss_vals)-set(square_poss)) == 1:
           container[i][j] = list(set(poss_vals)-set(square_poss))[0]
           print_container(container)
+
     return container
