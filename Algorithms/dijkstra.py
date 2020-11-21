@@ -6,8 +6,8 @@
 start 3|  end
      \ | /5
      2 B 
-'''
 
+'''
 
 graph = {}
 graph["start"] = {}
@@ -41,7 +41,7 @@ processed = []
 def find_lowest_cost_node(costs):
     lowest_cost = float("inf")
     lowest_cost_node = None
-    # Go through each node.
+    # Go through each node
     for node in costs:
         cost = costs[node]
         # If it's the lowest cost so far and hasn't been processed yet...
