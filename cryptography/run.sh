@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 chmod +x main.py
 ./main.py
