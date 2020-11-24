@@ -3,7 +3,7 @@
 
 # The set [1,2,3,...,n] contains a total of n! unique permutations
 # 
-# By listing and labeling all of the permutations in order,
+# By listing and labeling all of the permutations in order;
 # We get the following sequence (ie, for n = 3):
 # 
 # "123"
@@ -20,8 +20,10 @@ import math
 
 class Solution(object):
     def getPermutation(self, n, k):
+
         seq, k, fact = "", k - 1, math.factorial(n - 1)
         perm = [i for i in xrange(1, n + 1)]
+
         for i in reversed(xrange(n)):
             curr = perm[k / fact]
             seq += str(curr)
@@ -29,6 +31,7 @@ class Solution(object):
             if i > 0:
                 k %= fact
                 fact /= i
+
         return seq
 
     
