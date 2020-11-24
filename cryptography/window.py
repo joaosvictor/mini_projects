@@ -4,9 +4,21 @@ import os
 import sys
 import random
 import string
+import shutil, errno
 import PySimpleGUI as sg 
 
 class Converttxt(object):
+    src = ""
+    dest = ""
+    def copy(src, dest):
+        try:
+            shutil.copytree(src, dest)
+        except OSError as e:
+            if e.errno == errno.ENOTDIR:
+                shutil.copy(src, dest)
+            else:
+                print('Directory not copied. Error:  %s' % e)
+
     def process(chars = string.ascii_uppercase + string.digits + string.punctuation):
 
         # window color theme
@@ -15,7 +27,8 @@ class Converttxt(object):
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+ it.')],
                    [sg.Text('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
-                   [sg.Submit(), sg.Cancel()]
+                   [sg.Submit(), sg.Cancel()],
+                   [sg.Button("Copy")]
                    ]
  
         '''
