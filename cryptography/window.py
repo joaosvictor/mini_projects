@@ -47,8 +47,8 @@ class Converttxt(object):
             if event  == 'Copy':
                 copy(values[0], values[1])
         '''    
-
         event, values = window.read() 
+
         window.close()
                                          
         # get input key from layout
@@ -62,7 +62,7 @@ class Converttxt(object):
             transformation = ''.join(random.choice(chars) for i in range(len(text_input)))
             
         sg.popup('Your cryptography text: ', transformation)
-        sg.popup(copy)
+        
     process(copy)
 
 if __name__ == '__main__':
