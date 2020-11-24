@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-# data. dump model.
+# data. dump model
+import os 
 import io
 import zlib
 import numpy as np
