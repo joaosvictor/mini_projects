@@ -1,5 +1,4 @@
 '''
-#!/usr/bin/python3 
 
 from tkinter import *
 import tkinter as tk
