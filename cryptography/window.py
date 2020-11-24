@@ -5,9 +5,11 @@ import sys
 import random
 import string
 import shutil, errno
+import tkinter as tk
 import PySimpleGUI as sg 
 
 class Converttxt(object):
+    '''
     src = ""
     dest = ""
     def copy(src, dest):
@@ -18,15 +20,15 @@ class Converttxt(object):
                 shutil.copy(src, dest)
             else:
                 print('Directory not copied. Error:  %s' % e)
-
-    def process(copy,chars = string.ascii_uppercase + string.digits + string.punctuation):
+    '''
+    def process(chars = string.ascii_uppercase + string.digits + string.punctuation):
 
         # window color theme
         sg.theme('Dark Teal 1')
 
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+ it.')],
-                   [sg.Text('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
+                   [sg.('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
                    [sg.OK(), sg.Cancel()],
                    [sg.Button("Copy")]
                    ]
@@ -60,10 +62,18 @@ class Converttxt(object):
             transformation = ''.join(random.choice(chars) for i in range(len(text_input)*10))
         else: 
             transformation = ''.join(random.choice(chars) for i in range(len(text_input)))
-            
+        
+        if event is "Copy":
+            try:
+                For #Tkinter Access via .TKText
+                selected = window['-INPUT-'].TKText.selection_get()
+            except tk._tkinter.TclError:
+                pass
+
+
         sg.popup('Your cryptography text: ', transformation)
         
-    process(copy)
+    process()
 
 if __name__ == '__main__':
     Converttxt()
