@@ -28,7 +28,7 @@ class Converttxt(object):
 
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+ it.')],
-                   [sg.('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
+                   [sg.Text('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
                    [sg.OK(), sg.Cancel()],
                    [sg.Button("Copy")]
                    ]
@@ -63,15 +63,9 @@ class Converttxt(object):
         else: 
             transformation = ''.join(random.choice(chars) for i in range(len(text_input)))
         
-        if event is "Copy":
-            try:
-                For #Tkinter Access via .TKText
-                selected = window['-INPUT-'].TKText.selection_get()
-            except tk._tkinter.TclError:
-                pass
-
-
+        
         sg.popup('Your cryptography text: ', transformation)
+        print(transformation)
         
     process()
 
