@@ -42,17 +42,22 @@ class Converttxt(object):
         sg.popup('Your cryptography text: ', transformation)
         print(transformation)
         
-        layout2 = [ [sg.Text('Put here the cryptography text to get the original back: ')],
-                    [sg.Text('Enter here:'), sg.InputText(key = '-OUTPUT-')],
+        # create window that offer the original text back
+        layout2 = [ [sg.Text('Put here your cryptography text to get the original back: ')],
+                    [sg.Text('Enter here: '), sg.InputText(key = '-INPUT2-')],
                     [sg.OK()]
                   ]
+
         window2 = sg.Window('Cr+', layout2, size=(450,250))
         event2, values2 = window2.read()
-        text_output = values2['-OUTPUT-']
-        if text_output == transformation:
-            sg.popup('the original:', text_input)
+
+        text_input2 = values2['-INPUT2-']
+
+        if text_input2 == transformation:
+            sg.popup('Your original text:', text_input)
         else:
-            sg.popup('error')
+            sg.popup('Error')
+
     process()
 
 if __name__ == '__main__':
