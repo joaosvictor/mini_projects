@@ -59,13 +59,13 @@ class Converttxt(object):
         else:
             sg.popup('Error')
 
+        # time execution
         start_time = time.time()
         print("-> %s second: " % (time.time()- start_time)) 
+
     process()
 
 if __name__ == '__main__':
-   # start_time = time.time()
-   # print("-> %s second: " % (time.time()- start_time)) 
     Converttxt()
 
 
