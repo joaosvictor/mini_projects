@@ -61,7 +61,7 @@ class Converttxt(object):
 
         # time execution
         start_time = time.time()
-        print("-> %s second: " % (time.time()- start_time)) 
+        print("-> %s time execution in second: " % (time.time()- start_time)) 
 
     process()
 
