@@ -7,4 +7,4 @@ print('*' * 18)
 while(aux <= 10):  
   print('{0} X {1} = {2}'.format(aux, value, (aux * value)))  # this will x your value number times the rest of the multitable
   aux = aux + 1 
-  #
+  
