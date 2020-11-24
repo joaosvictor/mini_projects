@@ -19,7 +19,7 @@ class Converttxt(object):
             else:
                 print('Directory not copied. Error:  %s' % e)
 
-    def process(chars = string.ascii_uppercase + string.digits + string.punctuation):
+    def process(copy,chars = string.ascii_uppercase + string.digits + string.punctuation):
 
         # window color theme
         sg.theme('Dark Teal 1')
@@ -27,7 +27,7 @@ class Converttxt(object):
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+ it.')],
                    [sg.Text('Please, enter your text: '), sg.InputText(key = '-INPUT-')],
-                   [sg.Submit(), sg.Cancel()],
+                   [sg.OK(), sg.Cancel()],
                    [sg.Button("Copy")]
                    ]
  
@@ -38,8 +38,17 @@ class Converttxt(object):
 
         # create window
         window = sg.Window('Cr+', layout, size=(450,250) )
+        '''
+        while True:
+            event, values = window.read()
+            if event in (sg.WIN_CLOSED, 'Cancel'):
+                break
+            print('Your crypto text:',values[0])
+            if event  == 'Copy':
+                copy(values[0], values[1])
+        '''    
 
-        event, values = window.read()
+        event, values = window.read() 
         window.close()
                                          
         # get input key from layout
@@ -53,8 +62,8 @@ class Converttxt(object):
             transformation = ''.join(random.choice(chars) for i in range(len(text_input)))
             
         sg.popup('Your cryptography text: ', transformation)
-
-    process()
+        sg.popup(copy)
+    process(copy)
 
 if __name__ == '__main__':
     Converttxt()
