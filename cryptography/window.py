@@ -22,7 +22,6 @@ class Converttxt(object):
                    [sg.OK(), sg.Cancel()],
                    ]
  
-
         # create window
         window = sg.Window('Cr+', layout, size=(450,250) )
         event, values = window.read() 
@@ -58,7 +57,7 @@ class Converttxt(object):
             sg.popup('Your original text:', text_input)
         else:
             sg.popup('Error')
-
+        
         # time execution
         start_time = time.time()
         print("-> %s seconds " % (time.time()- start_time)) 
@@ -67,6 +66,4 @@ class Converttxt(object):
 
 if __name__ == '__main__':
     Converttxt()
-
-
 
