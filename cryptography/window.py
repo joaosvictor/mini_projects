@@ -13,7 +13,7 @@ class Converttxt(object):
     def process(chars = string.ascii_uppercase + string.digits + string.punctuation):
 
         # window color theme
-        sg.theme('Dark Teal 1')
+        sg.theme('Tan')
 
         # inside your window 
         layout = [ [sg.Text('Cryptography your text now! Cr+ it.')],
