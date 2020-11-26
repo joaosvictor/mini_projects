@@ -12,7 +12,7 @@ wn.tracer(0)
 # Score
 score_a = 0
 score_b = 0
-#
+
 # Paddle A
 paddle_a = turtle.Turtle()
 paddle_a.speed(0)
@@ -31,9 +31,9 @@ paddle_b.shapesize(stretch_wid=5,stretch_len=1)
 paddle_b.penup()
 paddle_b.goto(350, 0)
 
-# Ball.
+# Ball
 ball = turtle.Turtle()
-ball.speed(0)
+ball.speed(1)
 ball.shape("square")
 ball.color("white")
 ball.penup()
@@ -43,7 +43,7 @@ ball.dy = 2
 
 # Pen
 pen = turtle.Turtle()
-pen.speed(0)
+pen.speed(1)
 pen.shape("square")
 pen.color("white")
 pen.penup()
