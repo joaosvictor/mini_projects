@@ -21,13 +21,15 @@ x = 0 #global variable
 
 def add():
 	global x 
-	x = x + 2 #increment by 2
+	x = x + 2 
 	print('inside add():', x)
 add()
 print('In main:', x)
 
 #############################
+
 # Using a global variable in nested function
+
 def too():
 	x = 20
 
