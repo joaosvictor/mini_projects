@@ -1,4 +1,4 @@
-# You pass an array in, and it gets converted to a set
+# states convert
 states_needed = set(["mt", "wa", "or", "id", "nv", "ut", "ca", "az"])
 
 stations = {}
