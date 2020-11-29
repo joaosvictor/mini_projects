@@ -13,7 +13,7 @@ def display_board():
   print(board[3] + " | " + board[4] + " | " + board[5])
   print(board[6] + " | " + board[7] + " | " + board[8])
 
-# Play  a game pf tic tac toe
+# Play a game pf tic tac toe
 def play_game():
   
   # Display_inicial board
