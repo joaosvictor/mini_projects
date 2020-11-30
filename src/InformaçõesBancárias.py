@@ -1,12 +1,13 @@
+# portuguese code
 from time import sleep
 from decimal import *
 import datetime
-#Inicio do programa: pedir nome;
+# Inicio do programa: pedir nome;
 
 nome = str(input('Informe seu nome: '))
 print(' ')
 
-#criando as opções de banco e fazendo o processo;
+# criando as opções de banco e fazendo o processo;
 opcao = 0
 while opcao != 9:
     print('''     1- Bradesco
