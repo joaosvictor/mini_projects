@@ -5,7 +5,7 @@
 #### Some algorithms are in code! not in library.  
 
 -----
-#### Check the libraries here
+#### Check the libraries used here:
 
 ```
 pip install numpy
