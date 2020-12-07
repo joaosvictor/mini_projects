@@ -16,11 +16,11 @@ for i in range(10):
 import sys
 
 for i in range(10):
-	if i % 4 == 0:
-		print(i)
+    if i % 4 == 0:
+	print(i)
 		
 		
 for i in range(10):
-	if i % 1 == 1:
-		i += 4 
-		print(i)
+    if i % 1 == 1:
+	i += 4 
+	print(i)
