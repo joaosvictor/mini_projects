@@ -9,7 +9,7 @@ using std::cout;
 using std::endl;
 
 bool is_hunter(const std::string& name) {
-    return name.back() == 'l'; // a dumb way to find the hunter with the '-1' name 
+    return name.back() == 'l'; // a dumb way to find the hunter with the '-1'  
 }
 
 template <typename T>

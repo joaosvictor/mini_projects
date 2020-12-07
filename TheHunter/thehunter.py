@@ -1,4 +1,5 @@
-# bin /dash
+#!/usr/bin/env bash
+#!/usr/bin/env python3
 from collections import deque 
 
 def the_hunter(hunter):
@@ -33,16 +34,8 @@ def search(hunter):
                 search_queue += graph[hunter]
                 # mark this person as searched
                 searched.append(hunter)
-               
-                '''
-                # this will take the len of graph and see if it's correct.
-                n = len(graph)
-                if n >=  8:
-                    print('done --> 99')
-                '''    
-
     return False
+
 search('Carlos')
 
-# create a sample that find the number of both ways to the result and say if it's done
 
