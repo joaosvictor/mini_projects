@@ -13,6 +13,7 @@ pip install PySDL2
 pip install turtle
 pip install PySimpleGUI 
 pip install pytest-shutil
+pip install more-itertools
 pip install compressed-deque
 sudo apt-get install python-tk
 sudo apt-get install python3-tk
