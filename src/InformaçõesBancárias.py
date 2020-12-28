@@ -2,7 +2,7 @@
 from time import sleep
 from decimal import *
 import datetime
-# Inicio do programa: pedir nome;
+# Inicio do programa: pedir nome
 
 nome = str(input('Informe seu nome: '))
 print(' ')
