@@ -1,10 +1,11 @@
+# https://en.wikipedia.org/wiki/Graph_theory
 '''
 
 # the graph: 
      6 A
-     / | \1
+     / | \ 1
 start 3|  end
-     \ | /5
+     \ | / 5
      2 B 
 
 '''
