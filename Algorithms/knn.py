@@ -1,5 +1,5 @@
 #!/usr/bin/python3 
-
+# https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 # Example of getting neighbors for an instance
 from math import sqrt
  
