@@ -1,9 +1,9 @@
 The hunter:
 
-In the last week anyone started to hunt a animal in the region, and me as a searcher had a idea. 
-we have 8 suspect mens in the area!
+In the last week someone started to hunt a animal in the region, and me as a searcher had a idea. 
+we have 8 suspect in the area!
 
-0. Carlos --> the central man who discovered the case and have a list of friends where maybe they're suspect. 
+0. Carlos --> the main man who discovered the case and have a list of friends where maybe they're suspect. 
 1. Paul --> Carlos Friend <>
 2. Jhony --> Carlos Friend <> 
 3. Lucas --> Carlos Friend <> 
