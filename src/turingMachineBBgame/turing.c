@@ -165,7 +165,7 @@ currentgame = (char **) tm4; ncards = 4;
 
 
 
-// Driver code; tape find.
+// Driver code; tape find
 
 retcode = runtm ((char *(*)[2]) currentgame, ncards);
 
