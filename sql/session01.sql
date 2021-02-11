@@ -1,4 +1,5 @@
 -- here is the code without creating the database, 'cause sqlive dt need
+-- livesql.oracle.com
 
 create table tb_client(
         client_id int primary key,
