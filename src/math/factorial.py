@@ -1,7 +1,6 @@
-
 def function():
 
-    num = 7
+    num = float(input("Please, enter a number: "))
     factorial = 1
 
     # check if the number is negative, positive or zero 
