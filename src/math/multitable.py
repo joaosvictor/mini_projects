@@ -1,4 +1,3 @@
-
 value = int(input('Enter a number in the multiplication table: '))  
 aux = 0  
 print('*' * 18)  
