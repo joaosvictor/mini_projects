@@ -1,4 +1,5 @@
--- here is the code without creating the database, 'cause sqlive dt need
+--02/09
+-- here is the code without creating the database, 'cause sqlive dt need --
 -- livesql.oracle.com
 
 create table tb_client(
