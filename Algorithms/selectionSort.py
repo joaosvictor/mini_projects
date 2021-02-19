@@ -1,4 +1,5 @@
 # Finds the smallest value in an array
+
 def findSmallest(arr):
   smallest = arr[0]
   smallest_index = 0
@@ -8,6 +9,7 @@ def findSmallest(arr):
       smallest = arr[i]      
   return smallest_index
 
+# Sort the list
 def selectionSort(arr):
   newArr = []
   for i in range(len(arr)):
