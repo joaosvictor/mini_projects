@@ -1,3 +1,4 @@
+# fix the game. every time it tie
 # Game board
 board = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
 
