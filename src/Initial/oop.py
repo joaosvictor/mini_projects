@@ -12,7 +12,7 @@ class Employee:
 		return '{} {}'.format(self.first, self.last)#here goes the full name method
 
 	
-# setting up  the employees
+# setting up the employees
 emp_1 = Employee('Jhon', 'Leon', 8552)
 emp_2 = Employee('Michael', 'Billy', 8789)
 
