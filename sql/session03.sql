@@ -5,8 +5,8 @@
 select distinct city
 from station
 
--- mod() return the remainder of values id/2
+-- "mod()" return the remainder of values id/2
 where mod(id, 2) = 0
 
--- order by is used to sort the result
+-- "order by" is used to sort the result
 order by city;
