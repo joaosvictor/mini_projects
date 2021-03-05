@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# https://en.wikipedia.org/wiki/Sudoku
 subtract_set = {1,2,3,4,5,6,7,8,9}
 
 def check_horizontal(i,j):
