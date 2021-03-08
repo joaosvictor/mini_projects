@@ -1,6 +1,7 @@
 // this is the BB problem 
 // this is not the implementation of the BB five 
 // you see the BB five here: https://github.com/joaovictorsantos/ml-notebooks/tree/master/zBusy_Beaver
+// BB five has a lot of differences
 // see: https://en.wikipedia.org/wiki/Turing_machine
 // see: https://en.wikipedia.org/wiki/Busy_beaver
 
