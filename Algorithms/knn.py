@@ -1,4 +1,5 @@
 #!/usr/bin/python3 
+
 # https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
 # Example of getting neighbors for an instance
 from math import sqrt
@@ -22,7 +23,7 @@ def get_neighbors(train, test_row, num_neighbors):
 		neighbors.append(distances[i][0])
 	return neighbors
  
-# Test distance function
+# Test distance function with the dataset
 dataset = [[2.7810836,2.550537003,0],
 	[1.465489372,2.362125076,0],
 	[3.396561688,4.400293529,0],
