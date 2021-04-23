@@ -1,4 +1,4 @@
-# I know... this is not a game but It's python3 interfaces!
+# not a game
 import tkinter as tk
 
 class Application(tk.Frame):
