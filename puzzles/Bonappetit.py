@@ -1,4 +1,4 @@
-# this is a "hacker rank" puzzle
+# this is a hacker rank puzzle
 import math
 import os
 import random
