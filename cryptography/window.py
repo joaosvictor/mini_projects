@@ -43,7 +43,7 @@ class Converttxt(object):
         print(transformation)
         
         # create window that offer the original text back
-        layout2 = [ [sg.Text('Put here your cryptography text to get the original back: ')],
+        layout2 = [ [sg.Text('Put here your cryptography text to get your initial text back: ')],
                     [sg.Text('Enter here: '), sg.InputText(key = '-INPUT2-')],
                     [sg.OK()]
                   ]
@@ -54,7 +54,7 @@ class Converttxt(object):
         text_input2 = values2['-INPUT2-']
 
         if text_input2 == transformation:
-            sg.popup('Your original text:', text_input)
+            sg.popup('Your initial text:', text_input)
         else:
             sg.popup('Error')
         
@@ -65,5 +65,6 @@ class Converttxt(object):
     process()
 
 if __name__ == '__main__':
-    Converttxt()
+    c = Converttxt()
+    c.process()
 
