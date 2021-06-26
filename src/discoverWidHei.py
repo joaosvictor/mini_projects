@@ -9,6 +9,5 @@ img = Image.open(image)
 width = img.Width
 height = img.Height
 
-# print the result
 print('the height: ',height)
 print('the width: ',width)
